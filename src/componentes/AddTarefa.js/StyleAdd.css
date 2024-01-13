@@ -1,0 +1,18 @@
+.novoitem {
+  width: 100%;
+  height: 60px;
+  border: none;
+  padding: 12px;
+  outline: none;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff; /* Branco para o texto */
+  background-color: #282c34; /* Fundo escuro */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: border 0.3s ease-in-out; /* Efeito de transição na borda */
+}
+
+.novoitem:active,
+.novoitem:focus {
+  border: 2px solid #61dafb; /* Bordas azuis quando ativo ou focado */
+}
